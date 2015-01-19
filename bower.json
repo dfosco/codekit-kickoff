@@ -1,12 +1,12 @@
 {
-  "name": "Codekit Unbottle",
-  "version": "1.0.1",
+  "name": "codekit-unbottle",
+  "version": "1.0.2",
   "homepage": "https://github.com/dfosco/codekit-unbottle",
   "authors": [
     {
     "name": "Daniel Fosco",
     "email": "danielfosco@gmail.com",
-    "homepage": "http://danielfos.co",
+    "homepage": "http://danielfos.co"
     }
   ],
   "description": "A scaffolding for use with CodeKit -- includes Bitters, Bourbon & Neat",
