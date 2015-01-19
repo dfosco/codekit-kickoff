@@ -1,24 +1,29 @@
 {
-  "name": "Codekit Kickoff",
-  "version": "2.3.0",
-  "homepage": "http://kickoff.thehivemedia.com",
+  "name": "Codekit Unbottle",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dfosco/codekit-unbottle",
   "authors": [
-    {
-      "name": "Michael Lesher",
-      "email": "mike.lesher@gmail.com",
-      "homepage": "http://www.iamlesher.com"
-    }
+    "name": "Daniel Fosco",
+    "email": "danielfosco@gmail.com",
+    "homepage": "http://danielfos.co"
   ],
-  "description": "A Scaffold for use with CodeKit",
-  "main": "app/index.html",
+  "description": "A scaffolding for use with CodeKit -- includes Bitters, Bourbon & Neat",
+  "main": "build/styles/app.scss",
+  "moduleType": [
+    "globals"
+  ],
   "keywords": [
     "codekit",
     "automate",
     "build",
     "html",
-    "bootstrap",
-    "javascript",
-    "scaffold"
+    "bourbon",
+    "neat",
+    "bitters",
+    "thoughtbot",
+    "jquery",
+    "font-awesome",
+    "scaffold",
   ],
   "license": "MIT",
   "ignore": [
