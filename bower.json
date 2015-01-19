@@ -1,6 +1,6 @@
 {
   "name": "codekit-unbottle",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/dfosco/codekit-unbottle",
   "authors": [
     {
@@ -25,7 +25,7 @@
     "thoughtbot",
     "jquery",
     "font-awesome",
-    "scaffold",
+    "scaffold"
   ],
   "license": "MIT",
   "ignore": [
