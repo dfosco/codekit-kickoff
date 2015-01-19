@@ -3,7 +3,7 @@ codekit-unbottle
 
 A scaffolding for use with [CodeKit](http://incident57.com/codekit/), heavily based on Michael Lesher's [Codekit Kickoff](https://github.com/thehive/codekit-kickoff).
 
-Unbottle includes the Bitters scaffolding library from [Thoughtbot](http://bitters.bourbon.io/), to be used alongside Bourbon and Neat (natively included with CodeKit).
+Unbottle includes the Bitters scaffolding library from [Thoughtbot](http://bitters.bourbon.io/), to be used alongside Bourbon and Neat (both natively included with CodeKit). It also includes jQuery and Font-Awesome.
 
 ## Installation
 
