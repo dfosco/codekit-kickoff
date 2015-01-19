@@ -1,0 +1,14 @@
+// Application Style Controller
+// Description: Set Imports and Variables (Image) Here
+
+// Paths Relative to /app/_/css
+// ------------------------------------------------------------------------
+$img-url: "../img";
+
+// Example of how to use -- background: url("#{$img-url}/background-image.png") repeat top left;
+
+// Include Libraries
+// ------------------------------------------------------------------------
+@import "bourbon";
+@import "neat";
+@import "../lib/base/_base.scss";
