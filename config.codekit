@@ -22,6 +22,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 2
 		},
+	"\/app\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/build\/js\/app.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -33,30 +42,39 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 2
 		},
-	"\/build\/kit\/index.kit": {
+	"\/build\/kits\/index.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/kit\/index.kit",
-		"outputAbbreviatedPath": "\/app\/templates\/index.liquid",
+		"inputAbbreviatedPath": "\/build\/kits\/index.kit",
+		"outputAbbreviatedPath": "\/app\/index.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/build\/kit\/snippets\/footer.kit": {
+	"\/build\/kits\/pages\/index.kit": {
 		"fileType": 2048,
 		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/kit\/snippets\/footer.kit",
-		"outputAbbreviatedPath": "\/app\/templates\/footer.liquid",
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/build\/kits\/pages\/index.kit",
+		"outputAbbreviatedPath": "\/app\/pages\/index.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/build\/kit\/snippets\/header.kit": {
+	"\/build\/kits\/snippets\/footer.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/kit\/snippets\/header.kit",
-		"outputAbbreviatedPath": "\/app\/templates\/header.liquid",
+		"inputAbbreviatedPath": "\/build\/kits\/snippets\/footer.kit",
+		"outputAbbreviatedPath": "\/app\/footer.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/kits\/snippets\/header.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/kits\/snippets\/header.kit",
+		"outputAbbreviatedPath": "\/app\/header.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -747,33 +765,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 2
 		},
-	"\/build\/snippets\/index.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/snippets\/index.kit",
-		"outputAbbreviatedPath": "\/app\/templates\/index.liquid",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/snippets\/layout\/footer.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/snippets\/layout\/footer.kit",
-		"outputAbbreviatedPath": "\/app\/templates\/footer.liquid",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/snippets\/layout\/header.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/snippets\/layout\/header.kit",
-		"outputAbbreviatedPath": "\/app\/templates\/header.liquid",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/build\/styles\/app.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -811,7 +802,7 @@
 		"enableSmartyPants": 1,
 		"expandTabs": 1,
 		"fileType": 4096,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/README.md",
 		"outputAbbreviatedPath": "\/README.html",
@@ -1376,11 +1367,11 @@
 			}
 		},
 	"kitAutoOutputPathEnabled": 1,
-	"kitAutoOutputPathFilenamePattern": "*.liquid",
-	"kitAutoOutputPathRelativePath": "app\/templates",
-	"kitAutoOutputPathReplace1": "",
-	"kitAutoOutputPathReplace2": "",
-	"kitAutoOutputPathStyle": 1,
+	"kitAutoOutputPathFilenamePattern": "*.html",
+	"kitAutoOutputPathRelativePath": "app",
+	"kitAutoOutputPathReplace1": "build\/kits",
+	"kitAutoOutputPathReplace2": "app",
+	"kitAutoOutputPathStyle": 3,
 	"lessAllowInsecureImports": 0,
 	"lessAutoOutputPathEnabled": 1,
 	"lessAutoOutputPathFilenamePattern": "*.css",
@@ -1396,7 +1387,7 @@
 	"lessStrictImports": 0,
 	"lessStrictMath": 0,
 	"lessStrictUnits": 0,
-	"markdownAutoOutputPathEnabled": 1,
+	"markdownAutoOutputPathEnabled": 0,
 	"markdownAutoOutputPathFilenamePattern": "*.html",
 	"markdownAutoOutputPathRelativePath": "",
 	"markdownAutoOutputPathReplace1": "",
