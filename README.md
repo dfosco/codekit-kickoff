@@ -1,25 +1,27 @@
 codekit-unbottle
 ===============
 
-A scaffolding for use with [CodeKit](http://incident57.com/codekit/). Heavily based on Michael Lesher's [Codekit Kickoff](http://kickoff.thehivemedia.com/).
+A scaffolding for use with [CodeKit](http://incident57.com/codekit/), heavily based on Michael Lesher's [Codekit Kickoff](https://github.com/thehive/codekit-kickoff).
 
-Unbottle adds to Kickoff the Bitters scaffolding library, to be used alongside Bourbon and Neat, as well as HTML files with Liquid markup.
+Unbottle includes the Bitters scaffolding library from [Thoughtbot](http://bitters.bourbon.io/), to be used alongside Bourbon and Neat (natively included with CodeKit).
 
 ## Documentation
 
-Still in the works. For now, you can browse the documentation for the project that this one was based off, [CodeKit Kickoff](http://kickoff.thehivemedia.com).
+Still in the works. For now, you can browse the documentation for the project that this one was based on, [CodeKit Kickoff](https://github.com/thehive/codekit-kickoff). Project usage is similar, but file tree is different.
 
 ## Acknowledgement
 
-This project is meant to be used as a boilerplate for websites using CodeKit. It includes jQuery, Font-Awesome, Bitters (as well as @import's for Bourbon and Neat).
+This project is meant to be used as a boilerplate for websites using CodeKit. It includes jQuery, Font-Awesome and Bitters (as well as @import's for Bourbon and Neat).
 
 To that end, each of these frameworks and libraries have their own Licensing Restrictions. It is your responsibility to be aware of them.
+
+This project is based on Michael Lesher's [Codekit Kickoff](https://github.com/thehive/codekit-kickoff).
 
 ## Contact
 
 - [www.danielfos.co](http://www.danielfos.co)
 
-## Project Licensing (CodeKit Unbottle)
+## Project Licensing (CodeKit Unbottle ONLY)
 
 **The MIT License (MIT)** 
 Copyright (c) 2015 Daniel Fosco
