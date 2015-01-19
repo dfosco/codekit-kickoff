@@ -11,7 +11,7 @@ Learn more about Liquid in their [Github repository](https://github.com/Shopify/
 
 ## Documentation
 
-Still in the works. For now, you can browse the documentation for the project that this one was based off, [CodeKit Kickoff](http://kickoff.thehivemedia.com.
+Still in the works. For now, you can browse the documentation for the project that this one was based off, [CodeKit Kickoff](http://kickoff.thehivemedia.com).
 
 ## Acknowledgement
 
