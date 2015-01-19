@@ -5,6 +5,12 @@ A scaffolding for use with [CodeKit](http://incident57.com/codekit/), heavily ba
 
 Unbottle includes the Bitters scaffolding library from [Thoughtbot](http://bitters.bourbon.io/), to be used alongside Bourbon and Neat (natively included with CodeKit).
 
+## Installation
+
+You can install Codekit Unbottle by [direct download](http://github.com/dfosco/codekit-unbottle/zipball/master/) or via Bower:
+
+`bower install codekit-unbottle`
+
 ## Documentation
 
 Still in the works. For now, you can browse the documentation for the project that this one was based on, [CodeKit Kickoff](https://github.com/thehive/codekit-kickoff). Project usage is similar, but file tree is different.
